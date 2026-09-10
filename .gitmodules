@@ -1,0 +1,3 @@
+[submodule "sano-bot"]
+	path = sano-bot
+	url = git@github.com:monerinngu0/sano-bot.git
