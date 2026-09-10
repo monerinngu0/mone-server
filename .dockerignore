@@ -1,0 +1,13 @@
+.git
+.gitignore
+
+.env
+
+node_modules
+.venv
+
+bin
+data
+
+Dockerfile
+compose.yaml

@@ -1,0 +1,16 @@
+services:
+  bot:
+    build:
+      context: ./sano-bot
+      dockerfile: Dockerfile
+
+    container_name: sano-bot
+
+    restart: unless-stopped
+    init: true
+
+    env_file:
+      - ./sano-bot/.env
+
+    volumes:
+      - ./sano-bot/data:/app/data
