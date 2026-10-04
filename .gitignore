@@ -1,0 +1,24 @@
+# Secrets
+.env
+*.env
+
+# Runtime / persistent data
+data/**
+!data/.gitkeep
+!data/minecraft/.gitkeep
+!data/minecraft-2/.gitkeep
+!data/minecraft-bot/.gitkeep
+
+# Node
+node_modules/
+
+# Logs / DB
+*.log
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Local/editor stuff
+.DS_Store
+.vscode/
+.idea/

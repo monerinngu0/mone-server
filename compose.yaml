@@ -3,14 +3,40 @@ services:
     build:
       context: ./sano-bot
       dockerfile: Dockerfile
-
     container_name: sano-bot
-
     restart: unless-stopped
     init: true
-
     env_file:
       - ./sano-bot/.env
-
     volumes:
       - ./sano-bot/data:/app/data
+
+  minecraft:
+    build:
+      context: ./minecraft
+
+    container_name: minecraft
+    restart: unless-stopped
+
+    ports:
+      - "25565:25565/tcp"
+      - "19132:19132/udp"
+
+    volumes:
+      - ./data/minecraft:/data
+      - ./minecraft/scripts:/scripts:ro
+      - ./minecraft/plugins.yml:/plugins.yml:ro
+
+    environment:
+      EULA: "TRUE"
+      TYPE: "PAPER"
+      VERSION: "26.1.2"
+      MEMORY: "3G"
+      DIFFICULTY: "normal"
+
+      ENABLE_RCON: "true"
+      RCON_PORT: "25575"
+      RCON_PASSWORD: "xxxxxxxxxxxxxxxx"
+
+      ENABLE_WHITELIST: "true"
+      ENFORCE_WHITELIST: "true"

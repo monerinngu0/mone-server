@@ -1,0 +1,56 @@
+plugins:
+  - name: LuckPerms
+    file: LuckPerms.jar
+    url: https://download.luckperms.net/1645/bukkit/loader/LuckPerms-Bukkit-5.5.57.jar
+
+  - name: WorldEdit
+    file: WorldEdit.jar
+    url: https://cdn.modrinth.com/data/1u6JkXh5/versions/yDUBafTJ/worldedit-bukkit-7.4.3.jar?mr_download_reason=standalone
+
+  - name: WorldGuard
+    file: WorldGuard.jar
+    url: https://cdn.modrinth.com/data/DKY9btbd/versions/pI4UHLJL/worldguard-bukkit-7.0.17.jar?mr_download_reason=standalone
+
+  - name: ItemEdit
+    file: ItemEdit.jar
+    url: https://cdn.modrinth.com/data/yx81EHRu/versions/8wBtoVLx/ItemEdit-3.7.8.jar?mr_download_reason=standalone
+
+  - name: DecentHolograms
+    file: DecentHolograms.jar
+    url: https://cdn.modrinth.com/data/w02MKsTg/versions/t9gURTWO/DecentHolograms-2.9.10.jar?mr_download_reason=standalone
+
+  - name: CoreProtect
+    file: CoreProtect.jar
+    url: https://cdn.modrinth.com/data/Lu3KuzdV/versions/Kma0kBsY/CoreProtect-CE-24.0.jar?mr_download_reason=standalone
+
+  - name: Multiverse-Core
+    file: Multiverse-Core.jar
+    url: https://cdn.modrinth.com/data/3wmN97b8/versions/kgxH7ZVB/multiverse-core-5.7.1.jar?mr_download_reason=standalone
+
+  - name: Multiverse-Portals
+    file: Multiverse-Portals.jar
+    url: https://cdn.modrinth.com/data/8VMk6P0I/versions/b7zoWTL2/multiverse-portals-5.2.3.jar?mr_download_reason=standalone
+
+  - name: Multiverse-NetherPortals
+    file: Multiverse-NetherPortals.jar
+    url: https://cdn.modrinth.com/data/vtawPsTo/versions/H5s2uQM2/multiverse-netherportals-5.0.5.jar?mr_download_reason=standalone&mr_game_version=26.1.2&mr_loader=paper
+
+  - name: Multiverse-Inventories
+    file: Multiverse-Inventories.jar
+    url: https://cdn.modrinth.com/data/qvdtDX3s/versions/GIQ6bSwl/multiverse-inventories-5.3.4.jar?mr_download_reason=standalone
+
+  - name: ViaVersion
+    file: ViaVersion.jar
+    url: https://cdn.modrinth.com/data/P1OZGk5p/versions/ruzmiBqe/ViaVersion-5.10.0.jar?mr_download_reason=standalone
+
+  - name: Geyser
+    file: Geyser.jar
+    url: https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/spigot
+
+  - name: Floodgate
+    file: Floodgate.jar
+    url: https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/spigot
+
+  - name: DiscordSRV
+    file: DiscordSRV.jar
+    url: https://github.com/DiscordSRV/DiscordSRV/releases/download/v1.30.5/DiscordSRV-Build-1.30.5.jar
