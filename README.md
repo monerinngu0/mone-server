@@ -1,1 +1,0 @@
-mone's blog generator
