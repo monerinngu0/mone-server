@@ -1,5 +1,5 @@
 services:
-  bot:
+  sano-bot:
     build:
       context: ./sano-bot
       dockerfile: Dockerfile
