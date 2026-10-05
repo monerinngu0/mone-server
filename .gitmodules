@@ -1,3 +1,6 @@
 [submodule "sano-bot"]
 	path = sano-bot
 	url = git@github.com:monerinngu0/sano-bot.git
+[submodule "mone-blog"]
+	path = mone-blog
+	url = git@github-personal:monerinngu0/mone-blog.git
